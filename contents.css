@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Source+Serif+4:ital,opsz@0,8..60;1,8..60&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #4169E1;
+}
+
+/* nav bar  */
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 30px;
+  margin-top: 15px;
+}
+
+a {
+  color: #F1F1F1;
+  margin-bottom: 15px;
+}
+
+.projects {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Source Serif 4;
+    font-weight: 400;
+    color: #F1F1F1;
+}
+
+.projects a:hover, .dropdown:hover {
+  color: #FF9ce9;
+}
+
+/* main text */
+h1 {
+  display: flex;
+  justify-content: left;
+  color: #F1F1F1;
+  font-size: 50px;
+  font-family: DM Serif Text;
+}
+
+h2 {
+  display: flex;
+  justify-content: left;
+  color: #F1F1F1;
+  font-size: 30px;
+    font-family: Source Serif 4;
+    font-weight: 400;
+}

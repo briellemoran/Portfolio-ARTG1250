@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Source+Serif+4:ital,opsz@0,8..60;1,8..60&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4%;
+  margin: 4%;
+}
+
+a {
+  color: #F1F1F1;
+}
+
+.er {
+   display: flex;
+   flex-direction: row; 
+   margin: 2%;
+}
+
+.indent {
+    margin-left: 35px;
+}
+
+.etymology {
+    width: 30%;
+}
+
+.related {
+    width: 70%;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.mindMap {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+.map {
+    width: 80%;
+}
+
+.fiveDs {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    width: 30%;
+    height: 100%;
+}
+
+.projectsC {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+}
+
+.projectsR1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+}
+
+.projectsR2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+  object-fit: cover;
+  width: 40%;
+  height: 40%;
+  padding: 3px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.projects a:hover,
+.dropdown:hover {
+  color: #FF9ce9;
+}
+
+/* main text */
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #4169E1;
+  font-size: 50px;
+  font-family: DM Serif Text;
+}
+
+h2 {
+  display: flex;
+  justify-content: left;
+  color: #4169E1;
+  font-size: 30px;
+  font-family: DM Serif Text;
+}
+
+p {
+  display: flex;
+  justify-content: left;
+  color: black;
+  font-size: 20px;
+  font-family: Source Serif 4;
+  font-weight: 400;
+}
+
+.relfection {
+    display: flex;
+    justify-content: left;
+}
